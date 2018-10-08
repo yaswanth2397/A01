@@ -1,50 +1,35 @@
-* {  
-    margin: 0px;
-    padding: 0px;
+#convert {
+	background-color: #bba768;
   }
-  
-  html {
-    display: block;
+  #convert:hover {
+	background-color: #bcc768;
   }
-  
-  body {
-    margin: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+  h1 {
+	font-family: sans-serif;
+	color: #70b2e5;
   }
-  
-  header, footer, aside{
-    background-color: lightgrey;
+  input {
+	display: block;
+	padding: 10px;
+	margin-top: 10px;
+	font-size: 2em;
+	color: #f4a55a;
+	font-family: cursive, sans-serif;
   }
-  
-  main {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    background-color: #fff;
-    color: #444;
-    padding: 1em;
+  ::-webkit-input-placeholder {
+	 color: #ccc;
   }
-  
-  section {
-    background-color: #006747;
-    color: #fff;
-    border-radius: 0.5em;
-    padding: 1em;
-    margin: 0.5em;
-    font-size: 1em;
-    text-align: center;
+  :-moz-placeholder { /* Firefox 18- */
+	 color: #ccc;  
   }
-  
-  ol, ul {
-    padding-left: 1em;
-    padding-bottom: 1em;
+  ::-moz-placeholder {  /* Firefox 19+ */
+	 color: #ccc;  
   }
-  
-  li {
-     text-align: left;
-     font-size: 1em;
+  :-ms-input-placeholder {  
+	 color: #ccc;  
   }
-  
-  a {
-    text-decoration: none;
+  button {
+	padding: 10px;
+	font-size: 1.2em;
+	color: #545454;
   }
